@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import random
+import math
 
 random.seed(42)
 
@@ -144,7 +145,7 @@ def simulate_yearly_revenue(years=1):
 
 
 # Запуск симуляции
-months, revenues, event_data, expenses, profits = simulate_yearly_revenue(8)
+months, revenues, event_data, expenses, profits = simulate_yearly_revenue(10)
 
 # График выручки
 plt.figure(figsize=(12, 5))
